@@ -1,5 +1,5 @@
 //numeros
-let edad = 29;
+//let edad = 29;
 let sueldo = 120000;
 const PI = 3.14;
 
@@ -56,3 +56,7 @@ console.log(usuario);
 delete usuario.provincia;
 
 console.log(usuario);
+
+//esto va en otro archivo
+let edad = prompt('¿Cuál es tu edad?', 0);
+alert(`tienes ${edad} años`);
