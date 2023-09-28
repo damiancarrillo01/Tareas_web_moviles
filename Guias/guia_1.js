@@ -13,12 +13,11 @@ function calcularsuma(numero) {
     var sumaPares = 0;
     
     for (var i = 1; i <= numero; i++) {
-        if (i % 2 === 0) { // Verificar si el número actual es par
-            sumaPares += i; // Agregar el número par a la suma
+        if (i % 2 === 0) {
+            sumaPares += i; 
         }
     }
 
-    // Paso 4: Mostrar el resultado
     alert("La suma de los números pares desde 1 hasta " + numero + " es: " + sumaPares);
 };
 
