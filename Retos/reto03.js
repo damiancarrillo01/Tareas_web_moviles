@@ -34,7 +34,9 @@ function mostrarProductosEnLista() {
 
     for (const valor of valores) {
         const li = document.createElement('li');
-        li.innerHTML = `Propina: $${valor.propina} CLP<br>total a pagar: ${valor.total_pago}`;
+        const propinaS = Math.round(valor.propina); 
+        const totalPagoS = Math.round(valor.total_pago); 
+        li.innerHTML = `Propina: $${propinaS} CLP<br>Total a pagar: $${totalPagoS} CLP`;
         listaProductos.appendChild(li);
     }
 }
