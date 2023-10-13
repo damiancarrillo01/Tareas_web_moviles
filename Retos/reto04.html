@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    
+    <script src="../Retos/reto04.js"></script>
     <title>calcular imc</title>
     
 </head>
@@ -10,16 +12,16 @@
     <h1>Calculadora de IMC</h1>
     <form id="formularioPaciente">
         <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" required><br><br>
+        <input type="text" id="nombre" placeholder="Ingrese su nombre" required><br><br>
 
         <label for="peso">Peso(kg):</label>
-        <input type="number" id="peso" required><br><br>
+        <input type="number" id="peso" placeholder="Ingrese su peso(kg)" required><br><br>
 
         <label for="altura">Altura(metros):</label>
-        <input type="number" id="altura" required><br><br>
+        <input type="number" id="altura" placeholder="Ingrese su altura(m)" required><br><br>
 
         <label for="edad">Edad:</label>
-        <input type="number" id="edad" required><br><br>
+        <input type="number" id="edad"  placeholder="Ingrese su edad" required><br><br>
 
         <label for="genero">Género:</label>
         <select id="genero">
@@ -43,7 +45,5 @@
         <p>Gasto Energético Diario: <span id="GEDR"></span></p>
         <p>Estado Nutricional: <span id="NUTRIR"></span></p>
     </div>
-
-    <script src="../Retos/reto04.js"></script>
 </body>
 </html>
