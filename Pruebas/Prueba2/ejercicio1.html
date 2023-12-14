@@ -1,0 +1,30 @@
+<!-----Damian Carrillo-->
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../Prueba2/ejercicio1.css">
+    <title>Generador de Contraseñas Seguras</title>
+</head>
+<body>
+    
+    <h1>Generador de Contraseñas Seguras</h1>
+
+    <label for="length">Longitud de la contraseña (8-20):</label>
+    <input type="number" id="length" min="8" max="20">
+    <br>
+
+    <label>Elementos a incluir en la contraseña:</label>
+    <input type="checkbox" id="mayus" checked> Letras Mayúsculas <br>
+    <input type="checkbox" id="minus" checked> Letras Minúsculas <br>
+    <input type="checkbox" id="num" checked> Números <br>
+    <input type="checkbox" id="carac_e" checked> Caracteres Especiales
+    <br>
+
+    <button id="generar">Generar Contraseña</button>
+    <br>
+
+    <p id="password"></p>
+
+    <script src="../Prueba2/ejercicio1.js"></script>
+</body>
+</html>

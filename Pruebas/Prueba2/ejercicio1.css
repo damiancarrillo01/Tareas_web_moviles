@@ -1,0 +1,33 @@
+/* Damian Carrillo*/
+ body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif;
+}
+#password {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#mayus{
+    margin-left:10px ;
+}
+
+#minus{
+    margin-left:298px ;
+}
+
+#num{
+    margin-left:298px ;
+}
+
+#carac_e{
+    margin-left:298px ;
+}
+
+#generar{
+    color: cadetblue;
+    width: 200px;
+    height: 55px;
+    margin-top: 40px;
+    margin-left:100px;
+    font-family:Impact, 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+}
